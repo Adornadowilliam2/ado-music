@@ -38,7 +38,7 @@ function App() {
           <h1>Ado Music Album</h1>
           <div className="album-art">
             <img
-              src="https://th.bing.com/th?id=OIP.CodraPtAbjy19IEz1_NchQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2"
+              src="https://raw.githubusercontent.com/Adornadowilliam2/images/4f4962cff0982f3c179a2e3d1dba02e3ce131a5e/images.jpeg"
               alt="Album Art"
             />
           </div>
