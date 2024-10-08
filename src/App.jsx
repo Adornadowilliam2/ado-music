@@ -1,56 +1,31 @@
-import { data } from "./index.js";
+import { ado_rows } from "./index.js";
 import "./App.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Ado from "./pages/Ado.jsx";
+import Album from "./pages/Album.jsx";
+import RadWimps from "./pages/RadWimps.jsx";
+import Aizen from "./pages/Aizen.jsx";
 
 function App() {
-  return (
-    <>
-      <div>
-        <header>
-          <nav>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">Albums</a>
-              </li>
-              <li>
-                <a href="#">Artists</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <input type="text" placeholder="Search..." />
-        </header>
-        <main>
-          <h1>Ado Music Album</h1>
-          <div className="album-art">
-            <img
-              src="https://raw.githubusercontent.com/Adornadowilliam2/images/4f4962cff0982f3c179a2e3d1dba02e3ce131a5e/images.jpeg"
-              alt="Album Art"
-            />
-          </div>
-          <div className="track-list">
-            {data.map((item) => (
-              <div className="track" key={item.id}>
-                <div className="track-card">
-                  <img src={item.image} alt={item.name + " soundtrack bg"} />
-                  <span>
-                    Track {item.id}: {item.name}
-                  </span>
-                  <audio controls>
-                    <source src={item.track} type="audio/mpeg" />
-                  </audio>
-                </div>
-              </div>
-            ))}
-          </div>
-        </main>
-      </div>
-    </>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/ado-music",
+      element: <Ado ado_rows={ado_rows} />,
+    },
+    {
+      path: "/album",
+      element: <Album />,
+    },
+    {
+      path: "/radwimps",
+      element: <RadWimps />,
+    },
+    {
+      path: "/aizen",
+      element: <Aizen />,
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;

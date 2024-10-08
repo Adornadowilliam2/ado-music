@@ -11,7 +11,7 @@ import newgenesis from "./assets/newgenesis.mp3";
 import useewa from "./assets/useewa.mp3";
 import kurakura from "./assets/kurakura.mp3";
 
-export const data = [
+export const ado_rows = [
   {
     id: 1,
     name: "Mirror",
