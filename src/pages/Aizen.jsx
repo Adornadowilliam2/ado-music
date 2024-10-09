@@ -1,37 +1,48 @@
 import React from "react";
-import aizen from "../assets/bleach/aizen.jpg";
-import trachery from "../assets/bleach/trachery.mp3";
-import { Link } from "react-router-dom";
-export default function Aizen() {
+
+export default function Aizen({ Link, image }) {
+  const lyrics = [
+    "I can touch but I know you don't feel a thing",
+    "I can pray but I know you commit a sin",
+    "I can sense now it's all become clear to see",
+    "You're no good, and you mean no good treacherously",
+    "I can tell that you've never been true to me",
+    "I can smell that you're acting so fearfully",
+    "I can hear what you're hoping I want to hear",
+    "I can feel the alarm bells are ringing in me",
+  ];
+
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Aizen Trachery Song</h1>
       <img
-        src={aizen}
+        src={image[0].image}
         alt="Aizen Sosuke"
-        style={{ width: "200px", minWidth: "100%", margin: "10px" }}
+        style={{
+          width: "200px",
+          maxWidth: "100%",
+          minWidth: "100px",
+          margin: "10px auto",
+          display: "block",
+        }}
       />
-      <audio src={trachery} controls autoPlay loop />
-      <p style={{ margin: "10px" }}>
-        I can tell that you've never been true to me <br />I can smell that
-        you're acting so fearfully <br /> I can hear what you're hoping I want
-        to hear <br /> I can feel the alarm bells are ringing in me <br /> I can
-        touch but I know you don't feel a thing <br /> I can pray but I know you
-        commit a sin <br /> I can sense now it's all become clear to see <br />{" "}
-        You're no good, and you mean no good treacherously <br />
-        <br /> I can tell that you've never been true to me <br /> I can smell
-        that you're acting so fearfully <br /> I can hear what you're hoping I
-        want to hear <br /> I can feel the alarm bells are ringing in me <br />{" "}
-        I can touch but I know you don't feel a thing <br /> I can pray but I
-        know you commit a sin <br /> I can sense now it's all become clear to
-        see <br /> You're no good, and you mean no good treacherously <br />
-        <br /> I can tell that you've never been true to me <br /> I can smell
-        that you're acting so fearfully <br /> I can hear what you're hoping I
-        want to hear <br /> I can feel the alarm bells are ringing in me <br />{" "}
-        I can touch but I know you don't feel a thing <br /> I can pray but I
-        know you commit a sin <br /> I can sense now it's all become clear to
-        see <br /> You're no good, and you mean no good treacherously
-      </p>
+      <audio
+        src={image[0].track}
+        controls
+        autoPlay
+        loop
+        style={{ margin: "0", scale: "0.9" }}
+      />
+      <div style={{ textAlign: "left", margin: "10px" }}>
+        {Array.from({ length: 3 }).map((index) => (
+          <div key={index + 1}>
+            {lyrics.map((line, i) => (
+              <p key={i}>{line}</p>
+            ))}
+            <br />
+          </div>
+        ))}
+      </div>
       <Link to="/album">Back to Album</Link>
     </div>
   );

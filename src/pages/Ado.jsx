@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-export default function Ado({ ado_rows }) {
+export default function Ado({ ado_rows, Link }) {
   return (
     <div>
       <header>

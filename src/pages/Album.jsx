@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-export default function Album() {
+export default function Album({ Link }) {
   return (
     <>
       <h1>Album</h1>
@@ -16,27 +15,34 @@ export default function Album() {
         }}
       >
         <div>
-          <img
-            src="https://github.com/Adornadowilliam2/images/blob/main/ado.jpeg?raw=true"
-            alt="Ado music"
-          />
-          <Link to="/ado-music">Ado Music</Link>
+          {" "}
+          <Link to="/ado-music">
+            <img
+              src="https://github.com/Adornadowilliam2/images/blob/main/ado.jpeg?raw=true"
+              alt="Ado music"
+            />
+            Ado Music
+          </Link>
         </div>
 
         <div>
-          <img
-            src="https://github.com/Adornadowilliam2/images/blob/main/radwimps.jpeg?raw=true"
-            alt="radwimps image"
-          />
-          <Link to="/radwimps">RadWimps</Link>
+          <Link to="/radwimps">
+            <img
+              src="https://github.com/Adornadowilliam2/images/blob/main/radwimps.jpeg?raw=true"
+              alt="radwimps image"
+            />
+            RadWimps
+          </Link>
         </div>
 
         <div>
-          <img
-            src="https://github.com/Adornadowilliam2/images/blob/main/aizen.jpg?raw=true"
-            alt="Aizen images"
-          />
-          <Link to="/aizen">Aizen</Link>
+          <Link to="/aizen">
+            <img
+              src="https://github.com/Adornadowilliam2/images/blob/main/aizen.jpg?raw=true"
+              alt="Aizen images"
+            />
+            Aizen
+          </Link>
         </div>
       </div>
     </>
