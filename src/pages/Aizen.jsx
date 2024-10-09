@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Aizen({ Link, image }) {
+export default function Aizen({ Link, rows }) {
   const lyrics = [
     "I can tell that you've never been true to me",
     "I can smell that you're acting so fearfully",
@@ -13,26 +13,36 @@ export default function Aizen({ Link, image }) {
   ];
 
   return (
-    <div>
+    <div
+      style={{
+        minWidth: "300px",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <h1 style={{ textAlign: "center" }}>Aizen Trachery Song</h1>
-      <img
-        src={image[0].image}
-        alt="Aizen Sosuke"
-        style={{
-          width: "200px",
-          maxWidth: "100%",
-          minWidth: "100px",
-          margin: "10px auto",
-          display: "block",
-        }}
-      />
-      <audio
-        src={image[0].track}
-        controls
-        autoPlay
-        loop
-        style={{ margin: "0", scale: "0.9" }}
-      />
+      <div className="card">
+        <img
+          src={rows[1][0].image}
+          alt="Aizen Sosuke"
+          style={{
+            width: "200px",
+            maxWidth: "100%",
+            minWidth: "100px",
+            margin: "10px auto",
+            display: "block",
+          }}
+        />
+        <audio
+          src={rows[1][0].track}
+          controls
+          autoPlay
+          loop
+          style={{ margin: "0", scale: "0.9" }}
+        />
+      </div>
       <div style={{ textAlign: "left", margin: "10px" }}>
         {Array.from({ length: 3 }).map((index) => (
           <div key={index + 1}>

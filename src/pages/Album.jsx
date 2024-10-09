@@ -9,13 +9,13 @@ export default function Album({ Link }) {
         className="container"
         style={{
           display: "flex",
-          flexDirection: "column",
+          flexDirection: "row",
+          flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "center",
         }}
       >
-        <div>
-          {" "}
+        <div style={{ flex: "1 0 30%", margin: "10px" }}>
           <Link to="/ado-music">
             <img
               src="https://github.com/Adornadowilliam2/images/blob/main/ado.jpeg?raw=true"
@@ -25,7 +25,7 @@ export default function Album({ Link }) {
           </Link>
         </div>
 
-        <div>
+        <div style={{ flex: "1 0 30%", margin: "10px" }}>
           <Link to="/radwimps">
             <img
               src="https://github.com/Adornadowilliam2/images/blob/main/radwimps.jpeg?raw=true"
@@ -35,7 +35,7 @@ export default function Album({ Link }) {
           </Link>
         </div>
 
-        <div>
+        <div style={{ flex: "1 0 30%", margin: "10px" }}>
           <Link to="/aizen">
             <img
               src="https://github.com/Adornadowilliam2/images/blob/main/aizen.jpg?raw=true"
@@ -44,6 +44,8 @@ export default function Album({ Link }) {
             Aizen
           </Link>
         </div>
+
+        {/* Repeat for additional items to fill the 3x3 layout */}
       </div>
     </>
   );

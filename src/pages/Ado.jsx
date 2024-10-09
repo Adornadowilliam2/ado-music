@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Ado({ ado_rows, Link }) {
+export default function Ado({ rows, Link }) {
   return (
     <div>
       <header>
@@ -13,7 +13,7 @@ export default function Ado({ ado_rows, Link }) {
               <Link to="/album">Albums</Link>
             </li>
             <li>
-              <a href="#">Artists</a>
+              <Link to="/artist">Artist</Link>
             </li>
             <li>
               <a href="#">Contact</a>
@@ -31,7 +31,7 @@ export default function Ado({ ado_rows, Link }) {
           />
         </div>
         <div className="track-list">
-          {ado_rows.map((item) => (
+          {rows[0].map((item) => (
             <div className="track" key={item.id}>
               <div className="track-card">
                 <img src={item.image} alt={item.name + " soundtrack bg"} />
