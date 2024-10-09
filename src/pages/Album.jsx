@@ -44,8 +44,6 @@ export default function Album({ Link }) {
             Aizen
           </Link>
         </div>
-
-        {/* Repeat for additional items to fill the 3x3 layout */}
       </div>
     </>
   );

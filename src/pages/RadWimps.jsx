@@ -23,7 +23,7 @@ export default function RadWimps({ Link, rows }) {
         <input type="text" placeholder="Search..." />
       </header>
       <main>
-        <h1>Ado Music Album</h1>
+        <h1>RadWimps Music Album</h1>
         <div className="album-art">
           <img
             src="https://github.com/Adornadowilliam2/images/blob/main/cartoon_radwimps.jpeg?raw=true"
