@@ -13,6 +13,9 @@ import isthereanything from "./assets/radwimps/isthereanything.mp3";
 import grandescape from "./assets/radwimps/grandescape.mp3";
 import dreamlantern from "./assets/radwimps/dreamlantern.mp3";
 
+import itsgoingdown from "./assets/persona/itsgoingdown.mp3";
+import lastsurprise from "./assets/persona/lastsurprise.mp3";
+import coloryournight from "./assets/persona/coloryournight.mp3";
 export const rows = [
   [
     {
@@ -106,7 +109,24 @@ export const rows = [
   [
     {
       id: 1,
-      name: "",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/color.jpeg?raw=true",
+      name: "Color your Night",
+      track: coloryournight,
+    },
+    {
+      id: 2,
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/p5.jpg?raw=true",
+      name: "Last Surpise",
+      track: lastsurprise,
+    },
+    {
+      id: 3,
+      image:
+        "https://th.bing.com/th/id/OIP.CZtSVZpEAUKvJ1xBih64zwHaE8?w=268&h=180&c=7&r=0&o=5&pid=1.7",
+      name: "It's going down",
+      track: itsgoingdown,
     },
   ],
 ];

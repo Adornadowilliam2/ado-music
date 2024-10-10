@@ -6,6 +6,7 @@ import Album from "./pages/Album.jsx";
 import RadWimps from "./pages/RadWimps.jsx";
 import Aizen from "./pages/Aizen.jsx";
 import Artist from "./pages/Artist.jsx";
+import Persona from "./pages/Persona.jsx";
 
 function App() {
   const router = createBrowserRouter([
@@ -28,6 +29,10 @@ function App() {
     {
       path: "/artist",
       element: <Artist />,
+    },
+    {
+      path: "/persona",
+      element: <Persona Link={Link} rows={rows} />,
     },
   ]);
   return <RouterProvider router={router} />;

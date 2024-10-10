@@ -44,6 +44,16 @@ export default function Album({ Link }) {
             Aizen
           </Link>
         </div>
+
+        <div style={{ flex: "1 0 30%", margin: "10px" }}>
+          <Link to="/persona">
+            <img
+              src="https://preview.redd.it/v15cz7ttymv61.jpg?auto=webp&s=06a9f18c75ca15229a0c4ed786a5243e3eb75d3e"
+              alt="Persona images"
+            />
+            Persona
+          </Link>
+        </div>
       </div>
     </>
   );
