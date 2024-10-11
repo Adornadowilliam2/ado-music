@@ -108,3 +108,42 @@ audio {
     margin: 5px 0;
   }
 }
+
+.twice-img {
+  background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/dahyun.jpg?raw=true);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  animation: changepfp 10s ease-in-out infinite;
+}
+
+@keyframes changepfp {
+  11% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/dahyun.jpg?raw=true);
+  }
+  22% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/jeongyeon.jpg?raw=true);
+  }
+  33% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/jihyo.jpg?raw=true);
+  }
+  44% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/mina.jpeg?raw=true);
+  }
+  55% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/momo.jpg?raw=true);
+  }
+  66% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/nayeon.jpg?raw=true);
+  }
+  77% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/sana.jpeg?raw=true);
+  }
+  88% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/tzuyu.jpg?raw=true);
+  }
+  99% {
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/dahyun.jpg?raw=true);
+  }
+}

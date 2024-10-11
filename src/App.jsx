@@ -7,6 +7,7 @@ import RadWimps from "./pages/RadWimps.jsx";
 import Aizen from "./pages/Aizen.jsx";
 import Artist from "./pages/Artist.jsx";
 import Persona from "./pages/Persona.jsx";
+import Twice from "./pages/Twice.jsx";
 
 function App() {
   const router = createBrowserRouter([
@@ -29,6 +30,10 @@ function App() {
     {
       path: "/artist",
       element: <Artist />,
+    },
+    {
+      path: "/twice",
+      element: <Twice Link={Link} rows={rows} />,
     },
     {
       path: "/persona",

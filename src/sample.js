@@ -73,3 +73,15 @@
 // } else {
 //   console.log("Tangahaling tapat na");
 // }
+const voom = "Bakodam";
+
+// let i = 0;
+// for (i; i < voom.length; i++) {
+//   console.log(voom[i]);
+// }
+
+const new_voom = voom.toLowerCase().split("");
+console.log(new_voom.sort().reverse());
+
+const arr = [1, 2, 3, 4, 5, 6, 7];
+console.log(arr.sort((a, b) => b - a));

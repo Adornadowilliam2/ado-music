@@ -54,6 +54,13 @@ export default function Album({ Link }) {
             Persona
           </Link>
         </div>
+
+        <div style={{ flex: "1 0 30%", margin: "10px" }}>
+          <Link to="/twice">
+            <div className="twice-img" style={{ padding: 0, margin: 0 }}></div>
+            Twice
+          </Link>
+        </div>
       </div>
     </>
   );
