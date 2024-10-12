@@ -26,7 +26,7 @@ export default function Persona({ Link, rows }) {
         <h1>Persona Music Album</h1>
         <div className="album-art">
           <img
-            src="https://github.com/Adornadowilliam2/ado-music/blob/images/persona.jpg?raw=true"
+            src="https://github.com/Adornadowilliam2/ado-music/blob/images/persona/persona.jpg?raw=true"
             alt="Album Art"
           />
         </div>

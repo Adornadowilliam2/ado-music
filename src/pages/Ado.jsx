@@ -1,6 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 export default function Ado({ rows, Link }) {
+  const [search, setSearch] = useState("");
+  const [filteredTracks, setFilteredTracks] = useState([]);
+  const [appear, setAppear] = useState(false);
+
+  // Flatten the rows once, outside of the useEffect
+  const allTracks = rows.flat();
+
+  // Effect to filter tracks based on search input
+  useEffect(() => {
+    if (search === "") {
+      setFilteredTracks([]);
+      setAppear(false);
+    } else {
+      const results = allTracks.filter((item) =>
+        item.name.toLowerCase().includes(search.toLowerCase())
+      );
+      setFilteredTracks(results);
+      setAppear(results.length > 0);
+    }
+  }, [search]); // Only depend on search
+
   return (
     <div>
       <header>
@@ -20,7 +41,14 @@ export default function Ado({ rows, Link }) {
             </li>
           </ul>
         </nav>
-        <input type="text" placeholder="Search..." />
+        <div>
+          <input
+            type="text"
+            placeholder="Search..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+        </div>
       </header>
       <main>
         <h1>Ado Music Album</h1>
@@ -31,19 +59,44 @@ export default function Ado({ rows, Link }) {
           />
         </div>
         <div className="track-list">
-          {rows[0].map((item) => (
-            <div className="track" key={item.id}>
-              <div className="track-card">
-                <img src={item.image} alt={item.name + " soundtrack bg"} />
-                <span>
-                  Track {item.id}: {item.name}
-                </span>
-                <audio controls>
-                  <source src={item.track} type="audio/mpeg" />
-                </audio>
+          {appear ? (
+            filteredTracks.map((item) => (
+              <div className="track" key={item.track}>
+                <div className="track-card">
+                  <img
+                    src={item.image}
+                    alt={item.name + " soundtrack bg"}
+                    style={{
+                      width: "300px",
+                      height: "200px",
+                    }}
+                  />
+                  <span>
+                    Track {item.id}: {item.name}
+                  </span>
+                  <audio controls>
+                    <source src={item.track} type="audio/mpeg" />
+                  </audio>
+                </div>
               </div>
-            </div>
-          ))}
+            ))
+          ) : (
+            <>
+              {rows[0].map((item) => (
+                <div className="track" key={item.id}>
+                  <div className="track-card">
+                    <img src={item.image} alt={item.name + " soundtrack bg"} />
+                    <span>
+                      Track {item.id}: {item.name}
+                    </span>
+                    <audio controls>
+                      <source src={item.track} type="audio/mpeg" />
+                    </audio>
+                  </div>
+                </div>
+              ))}
+            </>
+          )}
         </div>
       </main>
     </div>

@@ -44,7 +44,7 @@ export default function Aizen({ Link, rows }) {
         />
       </div>
       <div style={{ textAlign: "left", margin: "10px" }}>
-        {Array.from({ length: 3 }).map((index) => (
+        {Array.from({ length: 3 }).map((_, index) => (
           <div key={index + 1}>
             {lyrics.map((line, i) => (
               <p key={i}>{line}</p>

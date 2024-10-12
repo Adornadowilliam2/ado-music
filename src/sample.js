@@ -85,3 +85,18 @@ console.log(new_voom.sort().reverse());
 
 const arr = [1, 2, 3, 4, 5, 6, 7];
 console.log(arr.sort((a, b) => b - a));
+{
+  rows[0].map((item) => (
+    <div className="track" key={item.id}>
+      <div className="track-card">
+        <img src={item.image} alt={item.name + " soundtrack bg"} />
+        <span>
+          Track {item.id}: {item.name}
+        </span>
+        <audio controls>
+          <source src={item.track} type="audio/mpeg" />
+        </audio>
+      </div>
+    </div>
+  ));
+}
