@@ -115,7 +115,7 @@ audio {
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
-  animation: changepfp 10s ease-in-out infinite;
+  animation: changepfp 10s infinite;
 }
 
 @keyframes changepfp {
@@ -135,7 +135,7 @@ audio {
     background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/momo.jpg?raw=true);
   }
   66% {
-    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/nayeon.jpg?raw=true);
+    background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/nayeo.jpeg?raw=true);
   }
   77% {
     background-image: url(https://github.com/Adornadowilliam2/ado-music/blob/images/twice/sana.jpeg?raw=true);
