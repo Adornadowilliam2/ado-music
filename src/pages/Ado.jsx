@@ -61,7 +61,7 @@ export default function Ado({ rows, Link }) {
         <div className="track-list">
           {appear ? (
             filteredTracks.map((item) => (
-              <div className="track" key={item.track}>
+              <div className="track" key={item.musicId}>
                 <div className="track-card">
                   <img
                     src={item.image}
@@ -72,7 +72,7 @@ export default function Ado({ rows, Link }) {
                     }}
                   />
                   <span>
-                    Track {item.id}: {item.name}
+                    Track {item.musicId}: {item.name}
                   </span>
                   <audio controls>
                     <source src={item.track} type="audio/mpeg" />
@@ -85,7 +85,14 @@ export default function Ado({ rows, Link }) {
               {rows[0].map((item) => (
                 <div className="track" key={item.id}>
                   <div className="track-card">
-                    <img src={item.image} alt={item.name + " soundtrack bg"} />
+                    <img
+                      src={item.image}
+                      alt={item.name + " soundtrack bg"}
+                      style={{
+                        width: "300px",
+                        height: "200px",
+                      }}
+                    />
                     <span>
                       Track {item.id}: {item.name}
                     </span>
