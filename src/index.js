@@ -79,6 +79,27 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/invasion.mp3?raw=true",
       name: "Invasion",
     },
+    {
+      name: "Ranbu no melody",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bleach/ranbunomelody.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/ranbomelody.mp3",
+    },
+    {
+      name: "orange asterisk",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bleach/orangeasterisk.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/orenageasterisk.mp3?raw=true",
+    },
+    {
+      name: "number one",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bleach/numberone.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/numberone.mp3?raw=true",
+    },
   ],
   [
     {
@@ -274,6 +295,65 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/images/yuuri/curtaincall.jpeg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/yuuri/curtaincall.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Magnetic",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/illit/magnetic.jepg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/illit/magnetic.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "hai yorokonde",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/kocchi%20no%20kento/haiyorokonde.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/kenncho%20no%20kento/haiyorokonde.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Wildside",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/ali/wildside.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ali/wildside.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Tell me",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/wonder%20girls/tellme.jpeg?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Eta",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/newjeans/eta.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/newjeans/eta.mp3?raw=true",
+    },
+    {
+      name: "Super Shy",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/newjeans/supershy.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/newjeans/supershy.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "lilac",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/mrs%20green%20apple/lilac.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/mrs%20green%20apple/lilac.mp3?raw=true",
     },
   ],
 ];
