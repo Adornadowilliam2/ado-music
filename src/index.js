@@ -50,6 +50,13 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/show.mp3?raw=true",
     },
     {
+      name: "Shock",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/shock.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/shock.mp3?raw=true",
+    },
+    {
       image:
         "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/backlight.jpeg?raw=true",
       track:
@@ -99,6 +106,13 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/images/bleach/numberone.jpeg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/numberone.mp3?raw=true",
+    },
+    {
+      name: "Without any words",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bleach/without%20any%20words.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/without%20any%20words.mp3?raw=true",
     },
   ],
   [
@@ -354,6 +368,13 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/images/mrs%20green%20apple/lilac.jpg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/mrs%20green%20apple/lilac.mp3?raw=true",
+    },
+    {
+      name: "inferno",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/mrs%20green%20apple/fireforce.png?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/mrs%20green%20apple/inferno.mp3?raw=true",
     },
   ],
 ];
