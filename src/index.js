@@ -84,7 +84,7 @@ export const rows = [
       image:
         "https://github.com/Adornadowilliam2/ado-music/blob/images/bleach/ranbunomelody.jpeg?raw=true",
       track:
-        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/ranbomelody.mp3",
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bleach/ranbomelody.mp3?raw=true",
     },
     {
       name: "orange asterisk",
