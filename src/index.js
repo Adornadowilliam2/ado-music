@@ -377,6 +377,45 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/mrs%20green%20apple/inferno.mp3?raw=true",
     },
   ],
+  [
+    {
+      name: "Die with a samile",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/brunomars/die%20with%20a%20smile.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/brunomars/die%20with%20a%20smile.mp3?raw=true",
+    },
+    {
+      name: "apt",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/brunomars/apt.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/brunomars/apt.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "salamin",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bini/salamin.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bini/salamin.mp3?raw=true",
+    },
+    {
+      name: "pantropiko",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bini/pantropiko.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bini/pantropiko.mp3?raw=true",
+    },
+    {
+      name: "Cherry on top",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bini/cherry%20on%20top.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bini/cherryontop.mp3?raw=true",
+    },
+  ],
 ];
 
 let i = 1;
