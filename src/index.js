@@ -454,8 +454,8 @@ export const rows = [
     },
     {
       name: "Running in the 90's",
-      images:
-        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/running%20in%20the%2090s.jpeg?raw=true",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/running.jpeg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/runninginthe90s.mp3?raw=true",
     },
@@ -480,7 +480,7 @@ export const rows = [
     {
       name: "You're Beautiful",
       image:
-        "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/fleeting%20lullaby.jpeg?raw=true",
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/james%20blunt/youre%20beautiful.jpeg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/james%20blunt/you're%20beautiful.mp3?raw=true",
     },
