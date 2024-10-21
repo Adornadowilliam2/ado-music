@@ -50,6 +50,13 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/show.mp3?raw=true",
     },
     {
+      name: "Fleeting Lullaby",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/fleeting%20lullaby.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/fleeting%20lullaby.mp3?raw=true",
+    },
+    {
       name: "Shock",
       image:
         "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/shock.jpeg?raw=true",
@@ -421,7 +428,8 @@ export const rows = [
       name: "Go go money",
       image:
         "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/gogomoney.jpg?raw=true",
-      track: "",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/go%20go%20money.mp3?raw=true",
     },
     {
       name: "Deja vu",
@@ -461,11 +469,54 @@ export const rows = [
   ],
   [
     {
-      name: "Hunter x hunter",
+      name: "Departure",
       image:
         "https://github.com/Adornadowilliam2/ado-music/blob/images/hunter%20x%20hunter/hunter.jpeg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/hunter%20x%20hunter/departure.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "You're Beautiful",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/fleeting%20lullaby.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/james%20blunt/you're%20beautiful.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Goo goo dolls",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/iris/goo%20goo%20dolls.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/iris/iris.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "What iv'e done",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/linked%20in/what%20ive%20done.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/linked%20in/what%20ive%20done.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Monster",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/skillet/monster.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/skillet/monster.mp3?raw=true",
+    },
+    {
+      name: "The Resistance",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/skillet/the%20renaisance.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/skillet/the%20resistance.mp3?raw=true",
     },
   ],
 ];
