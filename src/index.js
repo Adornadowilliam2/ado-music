@@ -416,6 +416,58 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bini/cherryontop.mp3?raw=true",
     },
   ],
+  [
+    {
+      name: "Go go money",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/gogomoney.jpg?raw=true",
+      track: "",
+    },
+    {
+      name: "Deja vu",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/dejavu.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/deja%20vu.mp3?raw=true",
+    },
+    {
+      name: "Gas gas gas",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/gasgasgas.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/gas%20gas%20gas.mp3?raw=true",
+    },
+    {
+      name: "Mission impossible",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/mission%20impossible.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/mission%20impossible.mp3?raw=true",
+    },
+    {
+      name: "Running in the 90's",
+      images:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/running%20in%20the%2090s.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/runninginthe90s.mp3?raw=true",
+    },
+    {
+      name: "Save me",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/initial%20d/saveme.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/initial%20d/save%20me.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Hunter x hunter",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/hunter%20x%20hunter/hunter.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/hunter%20x%20hunter/departure.mp3?raw=true",
+    },
+  ],
 ];
 
 let i = 1;
