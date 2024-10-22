@@ -519,6 +519,51 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/skillet/the%20resistance.mp3?raw=true",
     },
   ],
+  [
+    {
+      name: "10,000 reasons",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/worship%20song/1000%20reason.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/worship%20song/10000reasons.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Its my life",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/bon%20jovi/its%20my%20life.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/bon%20jovi/its%20my%20life.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Shikanoko",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/shikonoko/shikonoko.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/shikonoko/shikanoko.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Touch",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/katseye/touch.jpg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/katseye/touch.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Crucified",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/army%20of%20lovers/made%20in%20heaven.gif?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/army%20of%20lovers/crucified.mp3?raw=true",
+    },
+  ],
 ];
 
 let i = 1;
