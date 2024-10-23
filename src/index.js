@@ -322,7 +322,7 @@ export const rows = [
     {
       name: "Magnetic",
       image:
-        "https://github.com/Adornadowilliam2/ado-music/blob/images/illit/magnetic.jepg?raw=true",
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/illit/magnetic.jpeg?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/illit/magnetic.mp3?raw=true",
     },
@@ -350,6 +350,8 @@ export const rows = [
       name: "Tell me",
       image:
         "https://github.com/Adornadowilliam2/ado-music/blob/images/wonder%20girls/tellme.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/wonder%20girls/tellme.mp3?raw=true",
     },
   ],
   [
