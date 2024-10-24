@@ -77,6 +77,20 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/totmusica.mp3?raw=true",
       name: "Tot Musica",
     },
+    {
+      name: "Kawai Koten",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/ado%20cover.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/kawaikute.mp3?raw=true",
+    },
+    {
+      name: "Bibibida",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/ado/ado%20cover.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/ado/ado%20bibibida.mp3?raw=true",
+    },
   ],
   [
     {
@@ -564,6 +578,22 @@ export const rows = [
         "https://github.com/Adornadowilliam2/ado-music/blob/images/army%20of%20lovers/made%20in%20heaven.gif?raw=true",
       track:
         "https://github.com/Adornadowilliam2/ado-music/blob/mp3/army%20of%20lovers/crucified.mp3?raw=true",
+    },
+  ],
+  [
+    {
+      name: "Dancing queen",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/queen%20elizabeth%20bloodflame/dancing%20queen.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/queen%20elizabeth%20bloodflame/dancing%20queen.mp3?raw=true",
+    },
+    {
+      name: "Numb",
+      image:
+        "https://github.com/Adornadowilliam2/ado-music/blob/images/queen%20elizabeth%20bloodflame/numb.jpeg?raw=true",
+      track:
+        "https://github.com/Adornadowilliam2/ado-music/blob/mp3/queen%20elizabeth%20bloodflame/numb.mp3?raw=true",
     },
   ],
 ];
