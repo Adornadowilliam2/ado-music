@@ -119,7 +119,7 @@ section {
 .card-image {
   width: 100%;
   height: 150px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
   margin-bottom: 15px;
 }

@@ -218,11 +218,7 @@ export const rows = [
       image: `https://github.com/Adornadowilliam2/${repository_name}/blob/images/susei/bibibida.jpeg?raw=true`,
       track: `https://github.com/Adornadowilliam2/${repository_name}/blob/mp3/susei/bibibida.mp3?raw=true`,
     },
-    {
-      name: "Gyakko",
-      image: `https://github.com/Adornadowilliam2/${repository_name}/blob/images/susei/susei.jpeg?raw=true`,
-      track: `https://github.com/Adornadowilliam2/${repository_name}/blob/mp3/susei/gyakko.mp3?raw=true`,
-    },
+
   ],
   [
     {
