@@ -1,0 +1,158 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar (Sidebar) */
+nav {
+  width: 100%;
+  height: 60px; /* Adjust this to make navbar smaller or larger */
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+nav ul li:hover {
+  color: #e74c3c;
+}
+
+/* Header (Search Bar) */
+header {
+  height: 20%; /* Take up about 20% of the screen height */
+  background-color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header h2 {
+  font-size: 24px;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #c0392b;
+}
+
+/* Main Content (Music Cards Section) */
+section {
+  flex-grow: 1;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Music Card Style */
+.music-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.music-card h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.audio-player {
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-container input {
+    width: 200px;
+  }
+
+  .search-container button {
+    width: 150px;
+  }
+
+  section {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 5px;
+  }
+
+  .search-container input {
+    width: 150px;
+  }
+
+  .search-container button {
+    width: 120px;
+  }
+}
