@@ -155,4 +155,8 @@ section {
   .search-container button {
     width: 120px;
   }
+
+  ul li {
+    display: none;
+  }
 }
